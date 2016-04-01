@@ -5,9 +5,9 @@ Installation
 ------------
 
 It assumes that you have already Minion installed (https://github.com/mozilla/minion)
-Clone the project with `git clone https://github.com/glestel/minion-http-code-checker-plugin.git`
-If needed load the virtualenv with `source {minion-directory}/minion/env/bin/activate`
-Then run in the minion-http-code-checker-plugin directory : `python setup.py install`
+- Clone the project with `git clone https://github.com/glestel/minion-http-code-checker-plugin.git`
+- If needed load the virtualenv with `source {minion-directory}/minion/env/bin/activate`
+- Then run in the minion-http-code-checker-plugin directory : `python setup.py develop`
 
 Example of plan
 ---------------
